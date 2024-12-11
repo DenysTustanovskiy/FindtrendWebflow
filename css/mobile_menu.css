@@ -131,6 +131,7 @@
     }
     .findtrend_e{
       margin-bottom: 21px;
+      width: 90%;
     }
     .findtrend{
       padding-top: 40px;
@@ -190,6 +191,45 @@
   .viewmore{
     width: 40%;
     margin-bottom: 40px;
+  }
+  .conteinergetyour{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .monthly::before {
+    margin-bottom: 10px;
+  }
+  .switch{
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .monthly::after{
+    margin-bottom: 20px;
+  }
+  .packet{
+    margin-bottom: 20px;
+  }
+  .regular{
+    margin-bottom: 20px;
+  }
+  .join_now{
+    width: 40%;
+  }
+  .djoinus{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .findtrendt{
+    padding-top: 20px;
+    margin-left: 100px;
+  }
+  .privacy{
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 60px;
+  }
+  .privacy li{
+    margin-bottom: 10px;
   }
     }
     .cd-3d-nav-trigger span,
@@ -409,7 +449,7 @@
           -ms-transform: translateX(-50%);
           -o-transform: translateX(-50%);
           transform: translateX(-50%); } }
-   @media screen and (max-width: 920px){
+   @media screen and (max-width: 508px){
   .cd-marker {
     /* line at the bottom of nav selected item */
     position: absolute;
