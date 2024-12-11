@@ -161,7 +161,7 @@
     padding-left: 0px;
   }
   .startupgrow{
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .display_conts{
     display: contents;
@@ -187,6 +187,7 @@
   }
   .tweetMMAsk img{
     width: 90%;
+    margin-bottom: 40px;
   }
   .viewmore{
     width: 40%;
@@ -213,7 +214,12 @@
     margin-bottom: 20px;
   }
   .join_now{
-    width: 40%;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+  }
+  .join_now a{
+    padding-left: 0px;
   }
   .djoinus{
     padding-top: 40px;
@@ -231,7 +237,29 @@
   .privacy li{
     margin-bottom: 10px;
   }
-    }
+  .trial{
+    text-align: center;
+    margin: auto;
+    max-width: 220px;
+  }
+  .trial a{
+    padding-left: 0px;
+  }
+  .free_trial{
+    text-align: center;
+    margin: auto;
+    max-width: 220px;
+  }
+  .free_trial a{
+    padding-left: 0px;
+  }
+  .max_center{
+    max-width: 508px;
+    margin: auto;
+  }
+        }
+ 
+    @media screen and (max-width: 508px){
     .cd-3d-nav-trigger span,
     .cd-3d-nav-trigger span::before,
     .cd-3d-nav-trigger span::after {
@@ -310,7 +338,7 @@
       transform: translateY(0);
       -webkit-transition: -webkit-transform 0.5s 0s, visibility 0.5s 0s;
       -moz-transition: -moz-transform 0.5s 0s, visibility 0.5s 0s;
-        transition: transform 0.5s 0s, visibility 0.5s 0s; }
+        transition: transform 0.5s 0s, visibility 0.5s 0s; }}
     @media only screen and (min-width: 508px) {
       .cd-3d-nav-container {
         height: 202px;

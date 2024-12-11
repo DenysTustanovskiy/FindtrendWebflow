@@ -47,23 +47,14 @@ header{
         color: #fff;
         text-decoration: none;
 }
-.about{
-        max-width: 550px;
+.about_li_cont{
         display: flex;
         padding-top: 40px;
         list-style-type: none;
 
 }
 
-.about li a{
-        font-family:var(--font-family);
-        font-size: 18px;
-        text-align: center;
-        color: #fff;
-        margin-left: 14px;
-        margin-right: 14px;
-        text-decoration: none;
-}
+
 
 .login{
         display: flex;
@@ -338,7 +329,7 @@ header{
 }
 
 .startupgrow{
-        margin-bottom: 108px;
+        padding-bottom: 100px;
 }
 
 
@@ -680,7 +671,7 @@ header{
 .privacy {
         display: flex;
         justify-content: flex-end;
-        padding-top: 30px;
+        
         
 }
 
@@ -725,3 +716,15 @@ header{
    margin-right: 30px;
    margin-left: 30px;
 }
+
+
+
+.foot_cont{
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+
+
+
+
