@@ -1,6 +1,5 @@
 
 @media screen and (max-width: 508px){
-  
   /* ---Main Components ---- */
   .cd-header {
     -webkit-transition: -webkit-transform 0.5s;
@@ -174,6 +173,7 @@
   .iconfacebook{
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
   }
   .tweetMask {
     margin-left: 40px;
@@ -209,9 +209,11 @@
   }
   .packet{
     margin-bottom: 20px;
+    
   }
   .regular{
     margin-bottom: 20px;
+    
   }
   .join_now{
     width: 150px;
@@ -228,6 +230,7 @@
   .findtrendt{
     padding-top: 20px;
     margin-left: 100px;
+    width: initial !important;
   }
   .privacy{
     display: inline-block;
@@ -254,8 +257,12 @@
     padding-left: 0px;
   }
   .max_center{
-    max-width: 508px;
+    
     margin: auto;
+  }
+  .startup{
+    padding-right: 10px;
+    padding-left: 10px;
   }
         }
  

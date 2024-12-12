@@ -477,7 +477,8 @@ header{
         opacity: 0.5;
       }
 .personal{
-        padding-left: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
 }
 
 .packet {
@@ -485,7 +486,7 @@ header{
         border-radius: 16px;
         width: 360px;
         height: 640px;
-        margin-right: 50px;
+        
 }
 .packet h3{
         font-family: var(--font-family);
@@ -503,7 +504,6 @@ header{
         border-radius: 16px;
         width: 360px;
         height: 640px;
-        margin-right: 50px;
         background: #a8ff35;
 
 }
